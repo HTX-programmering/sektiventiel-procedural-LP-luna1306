@@ -1,0 +1,183 @@
+//opgave 5.1//
+/*circle(200, 400, 300);
+rect(225, 315, 65, 65);
+rect(110 , 315, 65, 65);
+circle(200, 400, 80);
+arc(200, 450, 175, 175, 0, PI);
+line(112, 450, 287, 450);
+fill(0);
+rect(50, 250, 300, 25);
+rect(100, 50, 200, 200);*/
+
+//opgave 5.2//
+/*void setup(){
+size(400,600);
+}
+void draw(){
+  head();
+  }
+  void head(){
+/*circle(200, 400, 300);
+rect(225, 315, 65, 65);
+rect(110 , 315, 65, 65);
+circle(200, 400, 80);
+arc(200, 450, 175, 175, 0, PI);
+line(112, 450, 287, 450);
+fill(0);
+rect(50, 250, 300, 25);
+rect(100, 50, 200, 200);
+}*/
+
+//opgave 5.3//
+/*void setup(){
+size(400,600);
+}
+void draw(){
+  face();
+  eyes();
+  nose();
+  mouth();
+  hat();
+  }
+  
+void face(){
+  noFill();
+  circle(200, 400, 300);
+   }
+   
+void eyes(){
+rect(225, 315, 65, 65);
+rect(110 , 315, 65, 65);
+}
+
+void nose(){
+circle(200, 400, 80);
+}
+
+void mouth(){
+arc(200, 450, 175, 175, 0, PI);
+line(112, 450, 287, 450);
+}
+
+void hat(){
+fill(0);
+rect(50, 250, 300, 25);
+rect(100, 50, 200, 200);
+}*/
+
+//opgave 5.4//
+/*void setup(){
+size(800,600);
+}
+void draw(){
+float x = 200;
+float y = 400;
+
+  face(x, y);
+  eyes(x, y);
+  nose(x, y);
+  mouth(x, y);
+  hat(x, y);
+  }
+  
+void face(float x, float y){
+  noFill();
+  circle(x, y, 300);
+   }
+   
+void eyes(float x, float y){
+rect(x+25, y-85, 65, 65);
+rect(x-90 , y-85, 65, 65);
+}
+
+void nose(float x, float y){
+circle(x, y, 80);
+}
+
+void mouth(float x, float y){
+arc(x, y+50, 175, 175, 0, PI);
+line(x-88, y+50, x+87, y+50);
+}
+
+void hat(float x, float y){
+fill(0);
+rect(x-150, y-150, x+100, y-375);
+rect(x-100, y-350, x, y-200);
+}*/
+
+//Opgave 5.5//
+void setup(){
+size(1200,600);
+}
+void draw(){
+float x = 200;
+float y = 400;
+
+  face(x, y);
+  eyes(x, y);
+  nose(x, y);
+  mouth(x, y);
+  hat(x, y);
+  neck(x, y);
+  body(x, y);
+  arm(x, y);
+  hand(x, y);
+  legs(x, y);
+  feet(x, y);
+  }
+  
+void face(float x, float y){
+  noFill();
+  circle(x, y, 300);
+   }
+   
+void eyes(float x, float y){
+rect(x+25, y-85, 65, 65);
+rect(x-90 , y-85, 65, 65);
+}
+
+void nose(float x, float y){
+circle(x, y, 80);
+}
+
+void mouth(float x, float y){
+arc(x, y+50, 175, 175, 0, PI);
+line(x-88, y+50, x+87, y+50);
+}
+
+void hat(float x, float y){
+fill(0);
+rect(x-150, y-150, x+100, y-375);
+rect(x-100, y-350, x, y-200);
+}
+
+void neck(float x, float y){
+  fill(0);
+  rect(x+150, y-50, 40, 100);
+  }
+  
+  void body(float x, float y){
+  noFill();
+  rect(x+150+40, y-50-100, 400, 300);
+  }
+  
+   void arm(float x, float y){
+  fill(0);
+  rect(x+150+40+75, y-40, 200, 80);
+  }
+  
+     void hand(float x, float y){
+  noFill();
+  rect(x+150+40+75+200, y-40, 50, 80);
+  }
+  
+     void legs(float x, float y){
+  noFill();
+  rect(x+150+40+400, y-75, 200, 150);
+  line(x+590, y-25, x+590+200, y-25);
+  }
+  
+    void feet(float x, float y){
+  fill(0);
+  rect(x+150+40+400+200, y-75, 75, 150);
+  }
